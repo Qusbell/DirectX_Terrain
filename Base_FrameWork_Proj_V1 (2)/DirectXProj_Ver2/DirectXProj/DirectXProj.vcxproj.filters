@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1fcc1d7c-5db9-454e-945d-358a78ac4a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{9ec0356d-0986-488b-ad3d-e16cefbb0627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{0460dda0-be28-4ad5-bc9f-1c43f2b60993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{00111165-fcf7-460f-8cfd-b65333ab8147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f2f44851-fa7c-457a-b90e-5029c3707617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d68d7128-c31f-4633-8750-8d197901e74f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXProj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Transform.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IRenderer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Game.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Window.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TimeManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SpriteRenderer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TextureManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ShaderManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ObjectRegistry.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\stdafx.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ComponentFactory.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\IdGenerator.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\json.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\json_exsample.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\json_fwd.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RandomRotator.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Mesh.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\MeshFactory.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MeshRenderer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Light.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Material.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\LightManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DebugRenderer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SingletonT.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DebugManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collider.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\BoxCollider.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SphereCollider.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CapsuleCollider.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CollisionManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CoreGraphicsManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\PickingManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UIImage.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Vertex.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectXProj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Transform.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Game.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Window.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\TimeManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SpriteRenderer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TextureManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ShaderManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ObjectRegistry.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ComponentFactory.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\IdGenerator.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\MeshFactory.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Component.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RandomRotator.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Mesh.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MeshRenderer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Light.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Material.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\LightManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\InputComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DebugRenderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\DebugManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Collider.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\BoxCollider.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SphereCollider.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CapsuleCollider.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CollisionManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CoreGraphicsManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\PickingManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UIImage.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectXProj.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DirectXProj.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\testuv.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\Basic3D_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Basic3D_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SpritePS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SpriteVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PickingPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PickingVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UIShaderPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UIShaderVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

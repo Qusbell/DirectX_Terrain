@@ -1,0 +1,26 @@
+# Visual Studio user settings and local database/cache files
+.vs/
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+ipch/
+
+# C++ compiler and linker intermediates
+*.obj
+*.iobj
+*.idb
+*.ilk
+*.pch
+*.tlog
+*.log
+*.pdb
+
+# Build output directories in the legacy DirectX project only.
+# Keep DirectXProj_Ver2/DirectXProj/lib/DirectXTK tracked: it contains a
+# checked-in third-party .lib dependency, not a local build output.
+/Base_FrameWork_Proj_V1 (2)/DirectXProj/DirectXProj/x64/
+/Base_FrameWork_Proj_V1 (2)/DirectXProj/x64/
