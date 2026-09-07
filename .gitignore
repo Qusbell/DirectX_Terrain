@@ -24,3 +24,9 @@ ipch/
 # checked-in third-party .lib dependency, not a local build output.
 /Base_FrameWork_Proj_V1 (2)/DirectXProj/DirectXProj/x64/
 /Base_FrameWork_Proj_V1 (2)/DirectXProj/x64/
+/TerrainTool/x64/
+/TerrainTool/DirectXProj/x64/
+/TerrainTool/DirectXProj/debug_picking_buffer.png
+/TerrainTool/DirectXProj/picking_buffer.png
+/TerrainTool/Extend_Include/
+/TerrainTool/Extend_Tools/
